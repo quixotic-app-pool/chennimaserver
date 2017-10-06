@@ -1,0 +1,14 @@
+export const data = [
+  {
+    title: "title1",
+    body: "body1"
+  },
+  {
+    title: "title2",
+    body: "body2"
+  },
+  {
+    title: "title3",
+    body: "body3"
+  }
+]

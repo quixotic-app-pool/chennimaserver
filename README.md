@@ -51,6 +51,10 @@ true
 db.getCollectionNames()
 [ "system.indexes" ]
 
+moongose crud
+https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications
+https://coursework.vschool.io/mongoose-crud/
+
 启动nginx，执行以下这句
 /home/ubuntu/nginx/sbin/nginx
 修改nginx配置文件，位于/home/ubuntu/nginx/conf/nginx.conf
