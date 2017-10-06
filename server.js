@@ -13,6 +13,9 @@ var Article = require('./models/Article');
 
 mongoose.connect(database.url);
 
+app.get('/', function(req, res){
+  res.send('server is up and running!')
+})
 app.get('/api/article', function(req, res) {
    // use mongoose to get all todos in the database
    Article.find(function(err, article) {
