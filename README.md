@@ -50,3 +50,15 @@ db.hello.drop()
 true
 db.getCollectionNames()
 [ "system.indexes" ]
+
+启动nginx，执行以下这句
+/home/ubuntu/nginx/sbin/nginx
+修改nginx配置文件，位于/home/ubuntu/nginx/conf/nginx.conf
+
+关闭nginx，执行以下这个强制停止Nginx
+
+pkill -9 nginx
+
+重启再执行
+
+/home/ubuntu/nginx/sbin/nginx
